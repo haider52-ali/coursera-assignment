@@ -1,1 +1,54 @@
 
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: black;
+}
+.main, .nav-item a{
+	color:black;
+}
+.main:hover, .nav-item a:hover{
+	color:white;
+}
+header{
+	background-color: darkgrey;
+	width: 100%;
+	padding:0 30px;
+}
+div.navbar-collapse{
+	text-align: center;
+}
+h2{
+	text-align: center;
+	color:black;
+	margin: 20px;
+}
+h4{
+	text-align: center;
+	font-size: 1.5em;
+}
+
+div#chicken, div#mutton, div#beef{
+	background-color: darkgrey;
+	position: relative;
+	margin:5px;
+}
+
+@media (max-width:1600px) and (min-width:992px){
+	
+	div#chicken, div#mutton, div#beef{
+		background-color: darkgrey;
+		position: relative;
+		margin:5px;
+		max-width:32%;
+	}
+
+}
+
+
+
